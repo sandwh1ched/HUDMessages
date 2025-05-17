@@ -1,0 +1,17 @@
+{
+	"Name": "efficientPotato.HUDMessages",
+	"Description": "Adds easily customizable messages to your HUD.",
+	"LoadPriority": 2,
+	"RequiredOnClient": false,
+	"Version": "0.1.0",
+	"ConVars": [],
+	"Scripts": [
+		{
+			"Path": "hudmsg.nut",
+			"RunOn": "CLIENT",
+			"ClientCallback": {
+				"After": "HUDMsg_Init"
+			}
+		}
+	]
+}
