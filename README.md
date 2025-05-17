@@ -1,2 +1,4 @@
-# This is deprecated.
-I'm working on a successor to CYNHUD.
+# HUD Messages
+> uhh repo description go here
+
+Funny repo README stuff
