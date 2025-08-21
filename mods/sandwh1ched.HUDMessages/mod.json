@@ -8,9 +8,9 @@
 	"Scripts": [
 		{
 			"Path": "sw_hudmsg.nut",
-			"RunOn": "CLIENT",
+			"RunOn": "CLIENT && !LOBBY",
 			"ClientCallback": {
-				"After": "HUDM_Init"
+				"After": "HUDM_init"
 			}
 		}
 	]
