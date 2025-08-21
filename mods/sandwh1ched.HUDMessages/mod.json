@@ -14,14 +14,15 @@
 			}
 		},
 		{
-			"Path": "hudm_init.nut",
+			"Path": "hudm_messages.nut",
 			"RunOn": "CLIENT && !LOBBY"
 		},
 		{
 			"Path": "ui/hudm_menu.nut",
 			"RunOn": "UI",
 			"UICallback": {
-				"Before": "HUDM_menuInit"
+				"Before": "HUDM_addMenu",
+				"After": "HUDM_addMenuButton"
 			}
 		}
 	]
