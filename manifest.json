@@ -1,7 +1,7 @@
 {
-    "name": "CYNHUD",
+    "name": "HUD Messages",
     "version_number": "0.1.0",
-    "website_url": "https://github.com/efficientPotato/HUDMessages",
-    "description": "Adds easily customizable messages to your HUD.",
+    "website_url": "https://github.com/sandwh1ched/HUDMessages",
+    "description": "Add silly or useful messages to your in-game HUD",
     "dependencies": []
 }
