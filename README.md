@@ -29,8 +29,13 @@ Please adhere to these style guidelines.
 - No space between function identifier and its parentheses
 - Code block opening brace stays on the same line as defining keywords (such as `function`), while closing brace gets its own
 
+## QnA
+**Q:** Why was CYNHUD deprecated?  
+**A:** It was written horribly 😅 It was very janky, and was single-file.  
+<sub>Though it was somewhat small, so I guess it was fine.<sub>
+
 ## Credits
 - @S2ymi (GitHub), for the original inspiration with his TF3 dev test text mod
 
-### Legal/licensing
+## Legal/licensing
 This mod is licensed under the BSD 2-clause license -- see `LICENSE`.
