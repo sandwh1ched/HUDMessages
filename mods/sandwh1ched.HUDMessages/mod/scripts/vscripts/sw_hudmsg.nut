@@ -1,5 +1,10 @@
-global function HUDMsg_Init;
+// HUDMessages primary logic code
+// All code is licensed under the MIT license -- see `LICENSE`
+// To-do:
+// - Add minimally intrusive update checking
 
-void function HUDMsg_Init() {
+global function HUDM_Init;
+
+void function HUDM_Init() {
     return; // FIXME: For now
 }

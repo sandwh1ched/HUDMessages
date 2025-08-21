@@ -10,7 +10,7 @@
 			"Path": "sw_hudmsg.nut",
 			"RunOn": "CLIENT",
 			"ClientCallback": {
-				"After": "HUDMsg_Init"
+				"After": "HUDM_Init"
 			}
 		}
 	]
