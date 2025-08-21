@@ -28,6 +28,7 @@ Please adhere to these style guidelines.
 ```
 - No space between function identifier and its parentheses
 - Code block opening brace stays on the same line as defining keywords (such as `function`), while closing brace gets its own
+- Function names are camelCase, while structs/enums/etc. are PascalCase.
 
 ## QnA
 **Q:** Why was CYNHUD deprecated?  
