@@ -1,9 +1,9 @@
-// HUDMessages primary logic code
+// Message logic script
 // All code is licensed under the BSD 2-clause license -- see `LICENSE`
 // To-do:
 // - Add minimally intrusive update checking
 
-global function HUDM_init;
+globalize_all_functions
 
 // Assembles a new static message RUI.
 var function HUDM_createStaticMessage(vector position, string text) {
@@ -16,19 +16,4 @@ var function HUDM_createStaticMessage(vector position, string text) {
   	RuiSetFloat(rui, "msgAlpha", 0.5);
   	RuiSetFloat(rui, "thicken", 0.0);
  	RuiSetFloat3(rui, "msgColor", <1.0, 1.0, 1.0>);
-}
-
-// Does the logic loop.
-// Requires threading.
-void function HUDM_loop() {
-    string mapName = GetMapName();
-    var message = HUDM_createStaticMessage(<0.825, 0.92, 0.0>, "i want a sandwich :(");
-	while (mapName == GetMapName()) {
-		WaitFrame();
-	}
-    RuiDestroy(message);
-}
-
-void function HUDM_init() {
-    thread HUDM_loop();
 }

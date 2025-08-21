@@ -1,16 +1,27 @@
 {
 	"Name": "sandwh1ched.HUDMessages",
 	"Description": "Add silly or useful messages to your in-game HUD",
-	"LoadPriority": 2,
+	"LoadPriority": 1,
 	"RequiredOnClient": false,
 	"Version": "0.1.0",
 	"ConVars": [],
 	"Scripts": [
 		{
-			"Path": "sw_hudmsg.nut",
+			"Path": "hudm_init.nut",
 			"RunOn": "CLIENT && !LOBBY",
 			"ClientCallback": {
 				"After": "HUDM_init"
+			}
+		},
+		{
+			"Path": "hudm_init.nut",
+			"RunOn": "CLIENT && !LOBBY"
+		},
+		{
+			"Path": "ui/hudm_menu.nut",
+			"RunOn": "UI",
+			"UICallback": {
+				"Before": "HUDM_menuInit"
 			}
 		}
 	]
