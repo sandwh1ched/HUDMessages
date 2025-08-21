@@ -15,6 +15,20 @@ Usages could be:
 - A silly random message you can set
 - And more!
 
+## Contributing
+Please adhere to these style guidelines.
+- 4-width soft (space) tabs
+- Ensure each logic file has a descriptive banner:
+```cpp
+// {description}
+// All code is licensed under the BSD 2-clause license -- see `LICENSE`
+//
+// Section:
+//   Lorem ipsum
+```
+- No space between function identifier and its parentheses
+- Code block opening brace stays on the same line as defining keywords (such as `function`), while closing brace gets its own
+
 ## Credits
 - s2ymi, for the original inspiration with their TF3 dev test text mod
 
