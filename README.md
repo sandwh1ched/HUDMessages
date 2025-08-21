@@ -30,7 +30,7 @@ Please adhere to these style guidelines.
 - Code block opening brace stays on the same line as defining keywords (such as `function`), while closing brace gets its own
 
 ## Credits
-- s2ymi, for the original inspiration with their TF3 dev test text mod
+- @S2ymi (GitHub), for the original inspiration with his TF3 dev test text mod
 
 ### Legal/licensing
 This mod is licensed under the BSD 2-clause license -- see `LICENSE`.
