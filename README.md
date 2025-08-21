@@ -18,5 +18,5 @@ Usages could be:
 ## Credits
 - s2ymi, for the original inspiration with their TF3 dev test text mod
 
-### Legal
-See `LICENSE`.
+### Legal/licensing
+This mod is licensed under the BSD 2-clause license -- see `LICENSE`.

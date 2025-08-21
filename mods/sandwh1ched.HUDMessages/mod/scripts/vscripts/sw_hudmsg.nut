@@ -1,5 +1,5 @@
 // HUDMessages primary logic code
-// All code is licensed under the MIT license -- see `LICENSE`
+// All code is licensed under the BSD 2-clause license -- see `LICENSE`
 // To-do:
 // - Add minimally intrusive update checking
 
