@@ -3,8 +3,8 @@
 // To-do:
 // - Add minimally intrusive update checking
 
-global function HUDM_Init;
+global function HUDM_init;
 
-void function HUDM_Init() {
+void function HUDM_init() {
     return; // FIXME: For now
 }
