@@ -15,7 +15,7 @@ void function HUDM_loop() {
     RuiDestroy(message);
 }
 
-// Actually does mod logic. But it's just a wrapper for the loop.
+// A wrapper for the loop to enable threading.
 void function HUDM_init() {
     thread HUDM_loop();
 }
