@@ -9,14 +9,14 @@
 	"Scripts": [
 		{
 			"Path": "hudm/init.nut",
-			"RunOn": "CLIENT && !LOBBY",
+			"RunOn": "CLIENT && MP && !LOBBY",
 			"ClientCallback": {
 				"After": "HUDM_init"
 			}
 		},
 		{
 			"Path": "hudm/messages.nut",
-			"RunOn": "CLIENT && !LOBBY"
+			"RunOn": "CLIENT && MP && !LOBBY"
 		}
 	]
 }
