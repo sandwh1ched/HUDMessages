@@ -5,6 +5,7 @@
 	"RequiredOnClient": false,
 	"Version": "0.1.0",
 	"ConVars": [],
+	"ConCommands": [],
 	"Scripts": [
 		{
 			"Path": "hudm_init.nut",
