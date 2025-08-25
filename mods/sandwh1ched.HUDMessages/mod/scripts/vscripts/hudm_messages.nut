@@ -1,7 +1,5 @@
 // Message logic script
 // All code is licensed under the BSD 2-clause license -- see `LICENSE`
-// To-do:
-// - Add minimally intrusive update checking
 
 globalize_all_functions
 

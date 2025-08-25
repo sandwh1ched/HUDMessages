@@ -1,3 +1,9 @@
+// Initialization script
+// All code is licensed under the BSD 2-clause license -- see `LICENSE`
+//
+// To-do:
+// - Add minimally intrusive update checking
+
 // Does the logic loop.
 // Requires threading.
 void function HUDM_loop() {
