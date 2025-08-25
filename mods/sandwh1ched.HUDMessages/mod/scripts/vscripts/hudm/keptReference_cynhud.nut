@@ -1,4 +1,4 @@
-// The CYNHUD logic is kept here for reference
+// The ugly CYNHUD logic is kept here for reference
 global function CynHud_Init;
 
 #if CLIENT
