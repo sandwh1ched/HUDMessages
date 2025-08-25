@@ -8,7 +8,7 @@
 // Requires threading.
 void function HUDM_loop() {
     string mapName = GetMapName();
-    var message = HUDM_createStaticMessage(<0.825, 0.92, 0.0>, "i want a sandwich :(");
+    var message = HUDM_createMessage(<0.825, 0.92, 0.0>, "i want a sandwich :(");
 	while (mapName == GetMapName()) {
 		WaitFrame();
 	}
