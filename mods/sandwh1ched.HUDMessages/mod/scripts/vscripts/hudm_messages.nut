@@ -3,8 +3,8 @@
 
 globalize_all_functions
 
-// Assembles a new static message RUI.
-var function HUDM_createStaticMessage(vector position, string text) {
+// Assembles a new message RUI.
+var function HUDM_createMessage(vector position, string text) {
     var rui = RuiCreate($"ui/cockpit_console_text_top_left.rpak", clGlobal.topoCockpitHudPermanent, RUI_DRAW_COCKPIT, 0);
   	RuiSetInt(rui, "maxLines", 1);
   	RuiSetInt(rui, "lineNum", 1);
