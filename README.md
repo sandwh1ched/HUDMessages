@@ -19,7 +19,7 @@ Usages could be:
 Please adhere to these style guidelines.
 - 4-width soft (space) tabs
 - Ensure each logic file has a descriptive banner:
-```cpp
+```c
 // {description}
 // All code is licensed under the BSD 2-clause license -- see `LICENSE`
 //
